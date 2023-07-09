@@ -1,0 +1,92 @@
+
+
+.calculation {
+    .container {
+        position: relative; 
+    }
+    &__img-box {
+        position: absolute;
+        bottom: -98px;
+        right: -18px;
+    }
+
+    &__img {
+        max-width: 560px;
+        width: 36vw;
+    }
+
+}
+
+
+
+
+.form {
+    position: relative;
+    max-width: 626px;
+    width: 100%;
+    background-color:$bg-secondary;
+    border-radius: 20px;
+    padding: 47px 47px 50px;
+    margin-left: 15px;
+
+    input {
+        width: 100%;
+    }
+
+
+    .input-box {
+    margin: 0px 15px 14px;
+        &.has-checkbox {
+        margin-bottom: 10px;
+       
+        label{
+            display: flex;
+            align-items: center;
+            }
+        }
+    
+    }
+
+    [type="file"] {
+        display: none;
+    }
+
+
+
+    #file-name {
+        font-size: 15px;
+        line-height: 126%;
+        margin-left: 4px;
+        margin-top: -24px;
+    
+    }   
+
+
+    [for="myfile"] {
+    border-radius: 10px;
+    border: 1px dashed #ffffff42;
+    text-align: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 526px;
+    margin-left: 4px;
+    margin-top: 10px;
+    &:hover {
+        color: $color-secondary;
+        border-color: $color-secondary;
+        }
+    }
+
+    .input-row {
+        margin-left: 0px;
+        margin-top: 3px;
+    }
+}
+
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+ }
